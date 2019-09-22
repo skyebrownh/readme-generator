@@ -76,7 +76,7 @@ function question3() {
 function question4() {
   readline.question('What would you like to name your file (default: README.md)? Please provide name and extension: ', (filename) => {
     // create new file with filename or README.md
-    fs.copyFile('./README-template.md', filename || './README.md', (err) => {
+    fs.copyFile('./node_modules/.bin/README-template.md', filename || './README.md', (err) => {
       if (err) {
         console.error('There was an error writing to a new README file: ', err, 'Please try again.\n\nExiting...');
         process.exit(1);
