@@ -1,6 +1,6 @@
 {
   "name": "@skyebrownh/readme-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": {
     "readme": "./cli.js"
   },
@@ -22,7 +22,7 @@
   },
   "license": "ISC",
   "repository": {
-    "type" : "git",
-    "url" : "github:skyebrownh/readme-starter"
+    "type": "git",
+    "url": "github:skyebrownh/readme-starter"
   }
 }
