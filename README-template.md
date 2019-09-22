@@ -14,7 +14,7 @@ Screenshot or gif
 - [Project Status](#project-status)
 - [License](#license)
 
-Project description:
+#### Project description:
 - Who this project is for?
   - Users? - self-developed
   - Contributors? - open-source
