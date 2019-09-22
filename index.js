@@ -47,7 +47,7 @@ function question2() {
 }
 
 function question3() {
-  readline.question('Would you like to create a new README and keep your existing file or exit? (keep/exit) ', (answer) => {
+  readline.question('Would you like to create a new README and keep your existing file or exit? [keep (k)/exit (e)] ', (answer) => {
       if (answer.toLowerCase() === 'k' || answer.toLowerCase() === 'keep') {
         console.log('New File Permission Granted');
         question4();
@@ -64,7 +64,7 @@ function question3() {
 function question4() {
   readline.question('What would you like to name your file (default: README.md)? Please provide name and extension: ', (filename) => {
     // create new file with filename or README.md
-    fs.writeFile(filename || './README.md', 'hello world', (err) => {
+    fs.copyFile('./README-template.md', filename || './README.md', (err) => {
       if (err) {
         console.error('There was an error writing to a new README file: ', err, 'Please try again.\n\nExiting...');
         process.exit(1);
