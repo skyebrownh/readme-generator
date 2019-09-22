@@ -1,5 +1,5 @@
 {
-  "name": "readme-generator",
+  "name": "readme-starter",
   "version": "1.0.0",
   "bin": {
     "readme": "./cli.js"
