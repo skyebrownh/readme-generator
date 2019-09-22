@@ -1,3 +1,15 @@
+#!/usr/bin/env node
+
+// grab provided args
+const [,, ... args] = process.argv
+
+if (args[0] != 'new') {
+  console.warn(`You\'re command argument could not be recognized. Please try again using one of the following:
+    - readme new: generates / replaces a new readme file from a template
+  `);
+  process.exit(2);
+}
+
 const readline = require('readline').createInterface({
   input: process.stdin,
   output: process.stdout
