@@ -8,7 +8,6 @@
 - [Support](#support)
 - [Change log](#change-log)
 - [Roadmap](#roadmap)
-- [Project Status](#project-status)
 - [License](#license)
 
 #### Project description:
@@ -58,10 +57,6 @@ If you have any questions you can contact the author. Contact Information is pro
 
 - Converting local executable to global
 - Refactoring implementation to use modern code style (ES6 Promises, Async-Await)
-
-## Project Status
-
-This project is currently being updated and maintained by the author. Pull requests and issues are welcome.
 
 ## License
 
